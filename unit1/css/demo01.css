@@ -1,0 +1,46 @@
+body{
+    background: black;
+    /*把间距设置为0*/
+    padding: 0;
+    margin: 0;
+}
+.div01{
+    width:500px;
+    height: px;
+    background: red;
+}
+.div02{
+    width:500px;
+    height: 200px;
+    background: red;
+}
+
+
+.container{
+    width: 500px;
+    height: 200px;
+    background: red;
+}
+.header{
+    width: 100%;
+    height: 20%;
+    background: blue;
+    /*外围间距*/
+    margin-top: 30px;
+    /*内部间距*/
+    padding-left: 20px;
+/*？？？*/
+    box-sizing: border-box;
+}
+
+.main{
+    width: 100%;
+    height: 70%;
+    background: green;
+}
+
+.footer{
+    width: 100%;
+    height: 10%;
+    background: yellow;
+}
